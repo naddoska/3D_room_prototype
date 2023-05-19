@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OptionsMenu.unity
     guid: 8de1b607f97117745bdc95c7c7a9e67a
+  - enabled: 1
+    path: Assets/Scenes/TeleportationScene.unity
+    guid: cfd163758bc2e3f4c96a2918a51eead1
   m_configObjects: {}

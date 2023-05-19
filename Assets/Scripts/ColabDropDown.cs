@@ -12,7 +12,8 @@ public class ColabDropDown : MonoBehaviour
         {
             case 0: break;
             case 1: OptionenScene.GoToOptionsScene(); break;
-            case 2: Application.Quit(); break;
+            case 2: SceneManager.LoadScene(3); break; // hier noch current player daten speichern >> um beim zurück drücken genau dort wieder aufzutauchen
+            case 3: Application.Quit(); break;
         }
     }
 }

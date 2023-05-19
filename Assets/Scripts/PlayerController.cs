@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Camera.main.transform.SetParent(transform);
+        Camera.main.transform.SetParent(transform);       // Setting the Camera as parent so that it follows the player 
         Camera.main.transform.localPosition = new Vector3(0, 1, 0);
         Camera.main.transform.localRotation = Quaternion.identity;
     }
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         MouseNotClicked();
     }
 
-    private void CmdMove()
+    private void CmdMove()  // This function controls all movement the player can do. From moving with WASD and the arrow keys, to looking around with the mouse
     {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void MouseNotClicked()
+    private void MouseNotClicked() // the mouse is not visible when its used to look around
     {
         if (Input.GetMouseButtonUp(0))
         {
