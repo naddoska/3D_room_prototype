@@ -6,6 +6,7 @@ using TMPro;
 
 public class ColabDropDown : MonoBehaviour
 {
+    public GameObject ExitWindow;
     public void DropDownChoice(int index)
     {
         switch (index)
@@ -13,7 +14,7 @@ public class ColabDropDown : MonoBehaviour
             case 0: break;
             case 1: OptionenScene.GoToOptionsScene(); break;
             case 2: SceneManager.LoadScene(3); break; // hier noch current player daten speichern >> um beim zurück drücken genau dort wieder aufzutauchen
-            case 3: Application.Quit(); break;
+            case 3: ExitWindow.SetActive(true); break;
         }
     }
 }
