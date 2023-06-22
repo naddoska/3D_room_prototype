@@ -8,16 +8,16 @@ public class Locations : MonoBehaviour
 {
     static public int x_pos_UP_DOWN = 2;
     static public int x_pos_LEFT = -27;
-    static public int x_pos_RIGHT = -49;
+    static public int x_pos_RIGHT = 27;
 
     static public int z_pos_UP = 14;
-    static public int z_pos_DOWN = 65;
-    static public int z_pos_LEFT_RIGHT = -12;
+    static public int z_pos_DOWN = -26;
+    static public int z_pos_LEFT_RIGHT = 33;
 
-    static public float y_pos_ground = 1.13f;
-    static public float y_pos_first_floor = 6.16f;
-    static public float y_pos_second_floor = 11.1f;
-    static public float y_pos_roof = 16.1f;
+    static public float y_pos_ground = 1.2f;
+    static public float y_pos_first_floor = 5.4f;
+    static public float y_pos_second_floor = 9.8f;
+    static public float y_pos_roof = 14.5f;
 
     public static Vector3 player_start_pos = new Vector3(x_pos_UP_DOWN, y_pos_ground, z_pos_UP);
 
