@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class Locations : MonoBehaviour
 {
-    static public int x_pos_UP_DOWN = -3;
-    static public int x_pos_LEFT = 59;
+    static public int x_pos_UP_DOWN = 2;
+    static public int x_pos_LEFT = -27;
     static public int x_pos_RIGHT = -49;
 
-    static public int z_pos_UP = -13;
+    static public int z_pos_UP = 14;
     static public int z_pos_DOWN = 65;
-    static public int z_pos_LEFT_RIGHT = 27;
+    static public int z_pos_LEFT_RIGHT = -12;
 
     static public float y_pos_ground = 1.13f;
     static public float y_pos_first_floor = 6.16f;
