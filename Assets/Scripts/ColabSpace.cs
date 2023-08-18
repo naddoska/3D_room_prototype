@@ -5,6 +5,8 @@ using UnityEngine;
 public class ColabSpace : MonoBehaviour
 {
     public GameObject Player;
+    public GameObject instantiatedPlayer;
+     
     public enum teleportation_pos{
 
             EG_up,
@@ -34,13 +36,14 @@ public class ColabSpace : MonoBehaviour
         if (Teleportation.isButtonPressed == false)
         {
             Vector3 start_pos = new Vector3(Locations.x_pos_UP_DOWN, Locations.y_pos_ground, Locations.z_pos_UP);
-            Instantiate(Player, start_pos , Quaternion.identity);
+            instantiatedPlayer = Instantiate(Player, start_pos , Quaternion.identity);
         }
         
         else
         {
             Vector3 start_pos = Locations.player_start_pos; 
-            Instantiate(Player, start_pos, Quaternion.identity);
+            instantiatedPlayer = Instantiate(Player, start_pos, Quaternion.identity);
+
         }
     }
 
