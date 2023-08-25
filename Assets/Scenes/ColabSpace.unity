@@ -744,7 +744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3124914424127336872, guid: b88f310e02bbd1b47bda8da620dff249, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -3124914424127336872, guid: b88f310e02bbd1b47bda8da620dff249, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1582,7 +1582,7 @@ RectTransform:
   m_Children:
   - {fileID: 1109073651}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2401,7 +2401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c3d6c08249382349a1d477170c5b199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 9134917099340289008, guid: 1436aa0708600eb4e8064d089f4f8627, type: 3}
+  Player: {fileID: 6084977360765564545, guid: edcf28e0ec3e98f49a795598bbc0d88f, type: 3}
   instantiatedPlayer: {fileID: 0}
 --- !u!4 &1109073651
 Transform:

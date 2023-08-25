@@ -42,8 +42,7 @@ public class PlayerController : MonoBehaviour
         Debug.Log(Singleton.instance.rotationSpeed);
         int checkScene = SceneManager.GetActiveScene().buildIndex;
         if (checkScene == 1) { MouseNotClicked(); }
-        rotationSpeed = Singleton.instance.rotationSpeed;
-        
+        rotationSpeed = Singleton.instance.rotationSpeed;      
     }
 
 
